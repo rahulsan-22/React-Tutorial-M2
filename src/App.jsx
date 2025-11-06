@@ -74,10 +74,26 @@
 
 //!05/11/2025
 //!Props Drilling
-import Anr from './Props/PropsDrilling/Anr'
+// import Anr from './Props/PropsDrilling/Anr'
+
+// const App = () => {
+//   return <Anr/>
+// }
+
+// export default App
+
+//!06/11/2025
+//!Conditional Rendering
+import Cart from './ConditionalRendering/Cart'
+import Password from './ConditionalRendering/Password'
 
 const App = () => {
-  return <Anr/>
+  return (
+    <>
+      <Password isValid={false}/>
+      <Cart items={["Shoes","Watch","Shirts","Pants","Bags"]}/>
+    </>
+  )
 }
 
 export default App
