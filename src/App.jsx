@@ -84,16 +84,26 @@
 
 //!06/11/2025
 //!Conditional Rendering
-import Cart from './ConditionalRendering/Cart'
-import Password from './ConditionalRendering/Password'
+// import Cart from './ConditionalRendering/Cart'
+// import Password from './ConditionalRendering/Password'
+
+// const App = () => {
+//   return (
+//     <>
+//       <Password isValid={false}/>
+//       <Cart items={["Shoes","Watch","Shirts","Pants","Bags"]}/>
+//     </>
+//   )
+// }
+
+// export default App
+
+//!07/11/2025
+//!useState()
+import State from './useState/State'
 
 const App = () => {
-  return (
-    <>
-      <Password isValid={false}/>
-      <Cart items={["Shoes","Watch","Shirts","Pants","Bags"]}/>
-    </>
-  )
+  return <State/>
 }
 
 export default App
