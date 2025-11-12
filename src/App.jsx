@@ -100,10 +100,31 @@
 
 //!07/11/2025
 //!useState()
-import State from './useState/State'
+// import State from './useState/State'
+
+// const App = () => {
+//   return <State/>
+// }
+
+// export default App
+
+//!12/11/2025
+//!useContext()
+import { BiscuitContext, ChocolateContext, MixingContext, UserContext } from './useContext/Instamart'
+import Musarambagh from './useContext/Musarambagh'
 
 const App = () => {
-  return <State/>
+  return <>
+    <ChocolateContext value='Kit-Kat'>
+      <BiscuitContext value="Jim-Jam">
+        <MixingContext value="Soda">
+          <UserContext value={{name:"Xyz",place:"Somewhere",age:16,isEmployee:false}}>
+            <Musarambagh />
+          </UserContext>
+        </MixingContext>
+      </BiscuitContext>
+    </ChocolateContext>
+  </>
 }
 
 export default App

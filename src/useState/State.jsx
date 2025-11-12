@@ -163,17 +163,17 @@
 // export default State
 
 //!Example 7
-import { useState } from 'react'
-import Salary from './Salary'
+// import { useState } from 'react'
+// import Salary from './Salary'
 
-const State = () => {
-  let [salary, setSalary] = useState(10000)
-  let handleSalary = () => {
-    setSalary(salary + 10000)
-  }
-  return <>
-    <Salary salaryAmount={salary} fun={handleSalary} />
-  </>
-}
+// const State = () => {
+//   let [salary, setSalary] = useState(10000)
+//   let handleSalary = () => {
+//     setSalary(salary + 10000)
+//   }
+//   return <>
+//     <Salary salaryAmount={salary} fun={handleSalary} />
+//   </>
+// }
 
-export default State
+// export default State
