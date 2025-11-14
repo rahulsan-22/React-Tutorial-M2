@@ -130,13 +130,25 @@
 // export default App
 
 //!13/11/2025
-//!Stylings
-import Global from './Stylings/Global'
-import "./Global.css"
+//!Stylings (Global CSS)
+// import Global from './Stylings/Global'
+// import "./Global.css"
 
+// const App = () => {
+//   return <>
+//     <Global/>
+//   </>
+// }
+
+// export default App
+
+//!Module CSS
+import Navbar1 from './Stylings/ModuleCSS/Navbar1'
+import Navbar2 from './Stylings/ModuleCSS/Navbar2'
 const App = () => {
   return <>
-    <Global/>
+    <Navbar1/>
+    <Navbar2/>
   </>
 }
 
