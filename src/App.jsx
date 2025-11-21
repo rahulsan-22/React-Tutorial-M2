@@ -143,13 +143,42 @@
 // export default App
 
 //!Module CSS
-import Navbar1 from './Stylings/ModuleCSS/Navbar1'
-import Navbar2 from './Stylings/ModuleCSS/Navbar2'
+// import Navbar1 from './Stylings/ModuleCSS/Navbar1'
+// import Navbar2 from './Stylings/ModuleCSS/Navbar2'
+// const App = () => {
+//   return <>
+//     <Navbar1/>
+//     <Navbar2/>
+//   </>
+// }
+
+// export default App
+
+//!17/11/2025
+//!Tailwind CSS
+// import Navbar from './Stylings/TailwindCSS/Navbar'
+// const App = () => {
+//   return <Navbar/>
+// }
+
+// export default App
+
+//!20/11/2025
+//!Forms(Uncontrolled)
+// import Uncontrolled from './Forms/Uncontrolled'
+
+// const App = () => {
+//   return <Uncontrolled/>
+// }
+
+// export default App
+
+//!21/11/2025
+//!Forms(Controlled)
+import Controlled from './Forms/Controlled'
+
 const App = () => {
-  return <>
-    <Navbar1/>
-    <Navbar2/>
-  </>
+  return <Controlled/>
 }
 
 export default App
