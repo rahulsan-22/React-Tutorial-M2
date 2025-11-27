@@ -175,10 +175,20 @@
 
 //!21/11/2025
 //!Forms(Controlled)
-import Controlled from './Forms/Controlled'
+// import Controlled from './Forms/Controlled'
+
+// const App = () => {
+//   return <Controlled/>
+// }
+
+// export default App
+
+//!26/11/2025
+//!React Hook Form
+import ReactHookForm from './Forms/ReactHookForm'
 
 const App = () => {
-  return <Controlled/>
+  return <ReactHookForm/>
 }
 
 export default App
