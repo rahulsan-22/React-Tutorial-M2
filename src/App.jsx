@@ -185,10 +185,51 @@
 
 //!26/11/2025
 //!React Hook Form
-import ReactHookForm from './Forms/ReactHookForm'
+// import ReactHookForm from './Forms/ReactHookForm'
+
+// const App = () => {
+//   return <ReactHookForm/>
+// }
+
+// export default App
+
+//!28/11/2025
+//!Lifecycle Phases
+// import Lifecycle from './LifecyclePhases/Lifecycle'
+
+// const App = () => {
+//   return <Lifecycle/>
+// }
+
+// export default App
+
+//!29/11/2025
+//!Error Boundaries
+// import FallbackUI from './ErrorBoundaries/FallbackUI'
+// import Welcome from './ErrorBoundaries/Welcome'
+
+// const App = () => {
+//   return <>
+//     <FallbackUI>
+//       <Welcome hero="Pavan" />
+//     </FallbackUI>
+//     <FallbackUI>
+//       <Welcome hero="Monty" />
+//     </FallbackUI>
+//     <FallbackUI>
+//       <Welcome hero="Asnan" />
+//     </FallbackUI>
+//   </>
+// }
+
+// export default App
+
+//!01/12/2025
+//!useEffect()
+import Effect from './useEffect/Effect'
 
 const App = () => {
-  return <ReactHookForm/>
+  return <Effect/>
 }
 
 export default App
