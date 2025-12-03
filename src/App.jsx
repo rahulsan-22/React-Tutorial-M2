@@ -226,10 +226,45 @@
 
 //!01/12/2025
 //!useEffect()
-import Effect from './useEffect/Effect'
+// import Effect from './useEffect/Effect'
+
+// const App = () => {
+//   return <Effect/>
+// }
+
+// export default App
+
+//!02/12/2025
+//!Axios
+// import FetchData from './Axios/FetchData'
+
+// const App = () => {
+//   return <FetchData/>
+// }
+
+// export default App
+
+//!03/12/2025
+//!Higher Order Components(HOC)
+// import GrandFather from './HigherOrderComponents/GrandFather'
+
+// const App = () => {
+//   return <>
+//     <GrandFather/>
+//   </>
+// }
+
+// export default App
+
+//!PureComponents
+import Normal from './PureComponents/Normal'
+import Pure from './PureComponents/Pure'
 
 const App = () => {
-  return <Effect/>
+  return <>
+    <Normal/>
+    <Pure/>
+  </>
 }
 
 export default App
