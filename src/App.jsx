@@ -257,14 +257,45 @@
 // export default App
 
 //!PureComponents
-import Normal from './PureComponents/Normal'
-import Pure from './PureComponents/Pure'
+// import Normal from './PureComponents/Normal'
+// import Pure from './PureComponents/Pure'
+
+// const App = () => {
+//   return <>
+//     <Normal/>
+//     <Pure/>
+//   </>
+// }
+
+// export default App
+
+//!04/12/2025
+//!Memo()
+// import { useState } from 'react'
+// import Regular from './Memo/Regular'
+// import Special from './Memo/Special'
+
+// const App = () => {
+//  let [trainer,setTrainer] = useState({
+//     name:"Yasin"
+//   })
+//   let handleTrainer = ()=>{
+//     setTrainer({name:"Asnan"})
+//   }
+//   return <>
+//     <Regular hero={trainer.name}/>
+//     <Special hero={trainer.name}/>
+//     <button onClick={handleTrainer}>Change Trainer</button>
+//   </>
+// }
+
+// export default App
+
+//!Portals
+import  Form  from './Portals/Form'
 
 const App = () => {
-  return <>
-    <Normal/>
-    <Pure/>
-  </>
+  return <Form/>
 }
 
 export default App
