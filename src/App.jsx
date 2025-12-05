@@ -292,10 +292,20 @@
 // export default App
 
 //!Portals
-import  Form  from './Portals/Form'
+// import  Form  from './Portals/Form'
+
+// const App = () => {
+//   return <Form/>
+// }
+
+// export default App
+
+//!05/12/2025
+//!useMemo()
+import MemoHook from './useMemo/MemoHook'
 
 const App = () => {
-  return <Form/>
+  return <MemoHook/>
 }
 
 export default App
